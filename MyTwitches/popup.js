@@ -1,6 +1,6 @@
 /*
 MyTwitches:
-Summary: Chrome plugin used for Twitch.tv chatrooms
+Summary: Google Chrome plugin used for Twitch.tv chatrooms.
 It allows a user to filter the chat for specific phrases.
 Goal: In very large chatrooms, it's really hard to see what
 others chat about--much less if any of it relates to you.
