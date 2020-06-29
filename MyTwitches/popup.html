@@ -1,0 +1,33 @@
+
+<!-- MyTwitches:
+Summary: Chrome plugin used for Twitch.tv chatrooms
+It allows a user to filter the chat for specific phrases.
+Goal: In very large chatrooms, it's really hard to see what
+others chat about--much less if any of it relates to you.
+This plugin creates a second chat window that updates with 
+any chats that match the phrase given.
+Dev:
+Scott Smalley
+B.Sc Software Engineering Fall 2020
+Utah Valley University
+scottsmalley90@gmail.com
+scottsmalley.net -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <script src="popup.js" charset="UTF-8"></script>
+    </head>
+    <body>
+        <div id="search">
+            <label for="searchText">Search Text:</label>
+            <input type="text" id="searchText" name="searchText">
+        </div>
+        <div id="buttons">
+            <button id="startBtn">START</button>
+            <button id="stopBtn">STOP</button>
+        </div>
+    </body>
+</html>
