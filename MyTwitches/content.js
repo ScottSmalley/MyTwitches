@@ -22,7 +22,7 @@ chrome.runtime.sendMessage({
 })
 
 let isDebugMode = true;
-const DELAY_TIME = 3_000;
+const DELAY_TIME = 2_000;
 //Note: Twitch chat only keeps 52 messages in their scrollable area.
 const MAX_CHAT_ROWS = 5;
 const OVER_MAX_CHAT_ROWS = 7;
@@ -140,9 +140,6 @@ function start(){
         const innerChat = document.querySelectorAll(".myTwitchesChat");
         const chat = document.querySelectorAll(".chat-line__message:not(.read):not(.myTwitchesMsg)");
         for (row of chat){
-            if (rowLimiter >= OVER_MAX_CHAT_ROWS){
-                removeTopHalfChat();
-            }
             if (regex.test(row.innerText)){
                 if (isDebugMode)
                 console.log(`YES ${row.innerText}`);
