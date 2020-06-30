@@ -21,7 +21,7 @@ chrome.runtime.sendMessage({
     twitchChatURL: window.location.href
 })
 
-let isDebugMode = true;
+let isDebugMode = false;
 const DELAY_TIME = 2_000;
 //Note: Twitch chat only keeps 52 messages in their scrollable area.
 const MAX_CHAT_ROWS = 5;

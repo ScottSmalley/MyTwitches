@@ -19,6 +19,7 @@ Background.js query used to get values
 between content.js and popup.js
 */
 let bg;
+let isDebugMode = false;
 
 document.addEventListener('DOMContentLoaded', () => {
     let storedSearch = localStorage.getItem("MyTwitches");
@@ -27,7 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     document.getElementById('startBtn').addEventListener('click', () => {
         let toSearch = document.getElementById("searchText").value;
-        console.log(`START: ${toSearch}`);
+        if (isDebugMode)
+            console.log(`START: ${toSearch}`);
         if (toSearch !== ""){
             start();
             window.close();
@@ -38,7 +40,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }, false);
     
     document.getElementById('stopBtn').addEventListener('click', () => {
-        console.log("STOP");
+        if (isDebugMode)
+            console.log("STOP");
         document.getElementById("searchText").value = "";
         localStorage.removeItem("MyTwitches");
         stop();
