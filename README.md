@@ -25,10 +25,10 @@ Now navigate to any Twitch stream.
  In the top right of your Google Chrome browser, there should 
  be a puzzle piece icon.
  Click it and click the pin icon to pin it to your Chrome Browser.
- You'll see a little icon next to the puzzle piece icon with an 
- "M" on it.
+ You'll see a purple icon next to the puzzle piece icon with the
+ letters "MT" on it.
  This is the extension.
- After the page is loaded, click the "M" icon and enter the phrase 
+ After the page is loaded, click the "MT" icon and enter the phrase 
  you want to search for.
  Click "START" and it will create our custom chat window just below 
  the Notifications area of

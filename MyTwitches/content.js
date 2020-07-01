@@ -47,8 +47,6 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 function start(){
     //Add our custom text area under the chat controls.
     const chat = document.querySelectorAll(".channel-leaderboard > .tw-border-b")
-    if (isDebugMode)
-    console.log("ChatITEM " + chat.item(0));
     let content = chat.item(0);
 
     if (content){
