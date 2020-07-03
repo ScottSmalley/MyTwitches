@@ -1,8 +1,8 @@
 {
     "name": "MyTwitches",
-    "version": "2.0",
+    "version": "2.0.1",
     "manifest_version": 2,
-    "description": "Twitch.tv Custom Filtering Chat Log. Creates a custom chat log to allow the user to filter the twitch chat of any streamer. Allows the user to filter for anything (Twitch and BTTV emotes coming soon!) from the streamer's name, the user's name, or any other keyword.  Inserts the chat window below Twitch's \"Notifications\" section. (Loads on webpage refresh)",
+    "description": "Twitch.tv Custom Chat Filter. Creates a custom chat log below the Notifications section in a Twitch Stream.",
     "icons": {
         "16": "media/icon_16.png",
         "48": "media/icon_48.png",

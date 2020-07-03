@@ -13,6 +13,8 @@ Launch Google Chrome.
 In the top right corner, click on the 3 vertical dots.
 Under "More Tools," click "Extensions"
 A new tab will open with your extensions page.
+At the top right of the page, there's a slider called "Developer 
+Mode" that needs to be enabled.
 At the top left of the page, click on "Load unpacked."
 Navigate to the inner folder.
 Now the folder name should show up as an Extension.
